@@ -76,7 +76,17 @@
 			url("../fonts/HelveticaNeueCyr-Thin.otf") format("truetype");
 			font-style: normal;
 			font-weight: normal;
+	}	
+
+@font-face {
+			font-family: "UbuntuBold";
+			src: url("../fonts/UbuntuBold/UbuntuBold.ttf");
+            src: url("../fonts/UbuntuBold/UbuntuBold.eot"),
+                url("../fonts/UbuntuBold/UbuntuBold.woff");
+			font-style: normal;
+			font-weight: normal;
 	}
+
 
 	@font-face {
 			font-family: "HelveticaUltraLight";

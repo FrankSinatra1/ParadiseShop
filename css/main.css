@@ -456,17 +456,37 @@ img {max-width: 100%;}
     line-height: 50px;
 }
 
-.footer-social {font-family: 'HelveticaBold';letter-spacing: .3px;margin: 35px 0;line-height: 50px;
+.footer-social {font-family: 'HelveticaBold';letter-spacing: .3px;margin: 50px 0;;
     transition: .3s;text-align: center;}
 
 .footer-social ul li {
-display: inline-block;}
+    margin: 20px 0 0 0;
+    display: inline-block;
+    line-height: 20px;
+}
 
 .fa {
     font-family: fontawesome;
     border: 1px solid #151515;
     border-radius: 50%;
     transition: .3s;
+    font-size: 1.1em;
+}
+
+.fa-vk {
+    padding: 6.5px;
+}
+
+.fa-inst {
+    padding: 6.5px 8px;
+}
+
+.fa-facebook {
+    padding: 6px 10px;
+}
+
+.fa-twitter {
+    padding: 7px 8px;
 }
 
 .fa-vk:before {
