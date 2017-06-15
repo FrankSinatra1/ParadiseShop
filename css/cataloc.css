@@ -56,9 +56,11 @@
 
 .dropdown li a{
     transition: .3s;
+    opacity: .7;
     font-family: 'HelveticaLight';
 }.dropdown li a:hover{
     transform: scale(1.05);
+    opacity: 1;
     border: none !important;
 }
 

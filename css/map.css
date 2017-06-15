@@ -1,0 +1,212 @@
+.wrapper__CardProduct {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    margin: auto;
+}
+
+.wrapper__between {
+    width: 1240px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 20px auto 40px;
+}.wrapper__between ul li {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-size: .87em;
+}.wrapper__between :not(:first-child):before{
+    font-family: fontawesome;
+    content: '\f105';
+    color: #9d9d9d;
+    margin: 0 10px;
+}.wrapper__between ul li a {color: #151515;}
+
+.text_card {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #151515;
+    letter-spacing: .3px;
+}
+
+.roman_UP {
+    text-transform: uppercase;
+    font-size: .8em !important;
+    font-family: 'HelveticaLight' !important;
+}
+
+.text_card p:not(:nth-child(1)) {
+    font-size: .95em;
+    line-height: 25px;
+    font-family: 'HelveticaNeueCyr-Roman';
+}
+
+.text_card p:nth-child(3) {
+    width: 310px;
+}
+
+.text_card h1 {
+    margin: 5px 0 20px;
+    font-size: 2.5em;
+    font-family: 'HelveticaBold';
+}
+
+.card_price p {
+    margin: 35px 0;
+    color: #151515;
+    font-size: 1.7em;
+    font-family: 'HelveticaBold';
+}
+
+.size_checkened {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    margin: 10px 0 40px;
+}
+
+.input--man, .input--woman {
+	display: none;
+}
+
+.man, .woman {
+	display: inline-block;
+	position: relative;
+}
+
+.man {
+	transition: .1s;
+    border: 1px solid #169bd5;
+    padding: 20px;color: #169bd5;
+    border-radius: 50%;
+	cursor: pointer;
+}
+
+.man:before {
+	content: "";
+	position: absolute;
+	transition: .3s;
+    border-radius: 50%;
+	top: 0px;bottom: 0px;right: 0px;left: 0px;
+}
+
+.man {
+	margin-right: 20px;
+}
+
+input:checked+.man:before {
+	color: #fff;
+    background: #169bd5;
+    width: 100%;
+    border: 1px solid #169bd5;
+    border-radius: 50%;
+}
+
+.button_basket {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: baseline;
+    width: 380px;
+    font-family: 'HelveticaLight';
+    font-size: .85em;
+    letter-spacing: .3px;
+}
+
+.btn_card {
+    color: #151515;
+    border: 1px solid #151515;
+    border-radius: 25px;
+    padding: 13px 15px;
+    transition: .2s;
+}.btn_card:hover {
+    background: #169bd5;
+    border: 1px solid #169bd5;
+    color: #fff;
+}
+
+.button_basket :last-child {
+    color: #169bd5;
+}.button_basket :last-child:hover {
+    text-decoration: underline;
+}
+
+.beetwen_buy{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 1240px;
+    margin: 100px auto 30px;
+}
+
+.beetwen_buy p {
+    font-size: 1.2em;
+    color: #151515;
+    font-family: 'HelveticaBold';
+}
+
+.wrapper__buyProduct {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    margin: auto;
+}
+
+.w_carusel{
+    width: 380px !important;
+}
+
+.wrap__clonebeetwen p {
+    font-size: 1.2em;
+    color: #151515;
+    font-family: 'HelveticaBold';
+}.wrap__clonebeetwen {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 1240px;
+    margin: 70px auto 30px;
+}
+
+.wrapper__endfooter {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    width: 1240px;
+}
+
+
+
+

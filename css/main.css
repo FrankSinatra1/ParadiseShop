@@ -428,7 +428,19 @@ img {max-width: 100%;}
     display: -o-flex;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     border: 1px solid #eeeeee;
+}
+
+.wrap-end {
+    display: flex;
+    justify-content: center;
+    width: 1240px;
+}.wrapper__endfooter p {
+    font-family: 'HelveticaThin';
+    color: #484848;
+    margin-bottom: 10px;
+    letter-spacing: .3px;
 }
 
 .wrap-footer {
